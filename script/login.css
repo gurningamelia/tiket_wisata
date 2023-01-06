@@ -1,0 +1,50 @@
+/* Navbar */
+.navbar{
+font-size: 18px;
+}
+.nav-item{
+font-family: sans-serif;
+}
+.navbar-brand{
+font-weight: bold;
+}
+
+/*Login*/
+.container{
+width: 30%;
+margin-top: 9%; padding: 40px;
+box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+}
+button{
+		width:100%;
+}
+/* footer */ 
+footer{
+	position: relative; width: 100%; height: 400px;
+	background: #101010; display: flex;
+floatlex-direction: column; align-items: center; justify-content: center;
+}
+footer p:nth-child(1){
+font-size: 30px; color: white;
+margin-bottom: 20px; font-weight: bold;
+}
+footer p:nth-child(2){
+color: white; font-size: 17px; width: 500px;
+text-align: center; line-height: 26px;
+}
+.sosmed{
+display: flex;
+}
+.sosmed a{
+width: 45px; height: 45px; display: flex;
+align-items: center; justify-content: center; background: #f9004d; border-radius: 50%; margin: 22px 10px; color: white;
+text-decoration: none; font-size: 20px;
+}
+.sosmed a:hover{
+transform: scale(1.3); transition: .3s;
+}
+.end{
+position: absolute; color: #f9004d; bottom: 35px;
+font-size: 14px;
+
+}
